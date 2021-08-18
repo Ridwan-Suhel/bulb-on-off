@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom object</title>
+</head>
+
+    <style>
+        .container{
+            width: 400px;
+            margin: 0 auto;
+        }
+        .bulb{
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            cursor: pointer;
+        }
+        
+    </style>
+
+<body>
+    
+
+    <div class="container">
+        <button onclick="onImgfunction()"; id="btn-on";>On</button>
+        <button onclick="offImgfunction()"; id="btn-off";>Off</button>
+        <div class="bulb">
+            <img id="bulbImg" src="images/pic_bulboff.gif" alt="Bulb">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
